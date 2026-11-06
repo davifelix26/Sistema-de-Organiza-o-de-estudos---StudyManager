@@ -33,13 +33,6 @@ def concluir_tarefas(elemento):
             print("Tarefa concluída com sucesso!".upper())
     else:
         print("Esta tarefa não existe tente novamente.")
-    """
-    0 1 tarefa
-    1 2 tarefa
-    2 3 tarefa
-    3 4 tarefa
-    4  5
-    """
 
 def remover_tarefas(posicao):
     if 1 <= posicao <= len(lista_tarefas):
